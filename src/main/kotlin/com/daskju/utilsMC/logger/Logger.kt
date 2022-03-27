@@ -18,4 +18,7 @@ class Logger {
     fun LoggingDebug(msg: String){
         LOGGER?.log(Level.DEBUG, msg)
     }
+    fun Log(level: Level, msg: String){
+        LOGGER?.log(level,msg)
+    }
 }
