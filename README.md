@@ -1,4 +1,4 @@
 # utilsMC
 
-utilsMC soll eine Minecraft Server Software welche es ermöglichen soll in versiedenen Programmier sprachen Plugins zu erstellen
-Zudem soll es eine Duetlich Besser Performance liefern
+utilsMC soll eine Minecraft Server Software sein welche Frei von anderen Libarys ist 
+Zudem soll es eine Deutlich Besser Performance liefern
