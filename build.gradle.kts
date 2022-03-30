@@ -9,6 +9,15 @@ repositories {
     mavenCentral()
     mavenCentral()
 }
+tasks.jar {
+    manifest {
+        attributes["Main-Class"] = "com.daskju.utilsMC.MainKt"
+    }
+    configurations["compileClasspath"].forEach { file: File ->
+        from(zipTree(file.absoluteFile))
+    }
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
 
 dependencies {
     implementation("org.apache.logging.log4j:log4j-api:2.17.2")
